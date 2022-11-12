@@ -25,10 +25,15 @@ const server=app.listen(process.env.PORT,()=>{
     console.log("SERVER started on port 5000");
 })
 
-const io=socket(server,{
-    cors:{
-        origin:process.env.ORIGIN,
-        credential:true,
+// const io=socket(server,{
+//     cors:{
+//         origin:process.env.ORIGIN,
+//         credential:true,
+//     }
+// });
+const io = socket(server, {
+    cors: {
+      origin: '*',
     }
 });
 global.onlineUsers=new Map();
