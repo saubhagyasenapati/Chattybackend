@@ -1,4 +1,4 @@
 # chatty
-#Hosted at https://notebook-saubhagya.netlify.app/
+## Hosted at https://chat-app-saubhagya-front.netlify.app/
 
 
